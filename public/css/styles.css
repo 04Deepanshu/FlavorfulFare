@@ -1,0 +1,97 @@
+:root{
+    --bs-font-sans-serif: 'Rubik',sans-serif;
+}
+.container-xxl{max-width: 1150px; max-height: 1950px; margin-top:5dvh; margin-bottom: 5dvh ; border-radius: 20px;}
+
+body{
+    background-image: url("/img/BG.jpg");
+    background-size: 800px 600px; 
+}
+
+a{
+    color: var(--bs-dark);
+}
+
+/* Category Card */
+
+.category__link{
+    text-align: center;
+    align-items: center;
+    display: block;
+    text-decoration: none;
+    transition: 250ms all;
+}
+
+.category__link:hover{
+    transform: scale(1.1);
+    color: blue; /* Set the text color when hovering */
+}
+
+
+.category__img{
+    display: flex;
+    justify-content: center;
+    height:120px;
+    /* width:150px; */
+    margin-bottom:10px;
+    
+    box-shadow: 0px 3px 6px rgba(0,0, 0, .16); 
+    overflow: hidden;
+    border-radius : 8px;
+}
+
+.category__img img{
+    width:100%;
+    object-fit: cover;
+}
+
+.category__img--large{
+    display: flex;
+    justify-content: center;
+    height:250px;
+    width: 200px;
+    margin-bottom:10px;
+    box-shadow: 0px 3px 6px rgba(0,0, 0, .16); 
+    overflow: hidden;
+    border-radius : 8px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+.wrapper .item {
+    margin-top: -3%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .item{
+    -webkit-mask-repeat :  no-repeat;
+  }
+ 
+.one{
+   -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMTkuOSwtMzEuNUMyNi41LC0yNi42LDMzLjIsLTIyLjQsMzYuNSwtMTYuM0MzOS44LC0xMC4yLDM5LjcsLTIuMywzOS4yLDZDMzguNiwxNC4zLDM3LjUsMjIuOSwzMi42LDI4QzI3LjgsMzMsMTkuMiwzNC42LDExLDM2LjVDMi44LDM4LjUsLTQuOSw0MC45LC0xMS4zLDM4LjlDLTE3LjcsMzYuOSwtMjIuNywzMC40LC0yOC4yLDI0LjNDLTMzLjcsMTguMiwtMzkuOCwxMi40LC00MS43LDUuNEMtNDMuNSwtMS41LC00MS4xLC05LjYsLTM4LC0xNy43Qy0zNC44LC0yNS43LC0zMC44LC0zMy43LC0yNC4zLC0zOC42Qy0xNy45LC00My42LC04LjksLTQ1LjUsLTEuMiwtNDMuN0M2LjYsLTQxLjksMTMuMiwtMzYuNCwxOS45LC0zMS41WiIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIiBzdHJva2Utd2lkdGg9IjAiIHN0eWxlPSJ0cmFuc2l0aW9uOiBhbGwgMC4zcyBlYXNlIDBzOyI+PC9wYXRoPgogICAgICAgICAgICAgIDwvc3ZnPg==);
+}
+.two{
+    -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMjMuOCwtNDAuNkMzMSwtMzcuMSwzNy4xLC0zMSw0MSwtMjMuOEM0NC45LC0xNi42LDQ2LjYsLTguMyw0NS42LC0wLjZDNDQuNyw3LjIsNDEuMSwxNC40LDM2LjUsMjAuNEMzMS45LDI2LjUsMjYuNCwzMS4zLDIwLjEsMzQuNEMxMy45LDM3LjUsNywzOC45LC0wLjcsNDBDLTguMyw0MS4yLC0xNi42LDQyLjEsLTIyLjQsMzguOEMtMjguMiwzNS40LC0zMS42LDI3LjgsLTM1LjMsMjAuN0MtMzguOSwxMy41LC00Mi44LDYuNywtNDMuOCwtMC42Qy00NC43LC03LjgsLTQyLjcsLTE1LjcsLTM4LjksLTIyLjVDLTM1LC0yOS4zLC0yOS4zLC0zNSwtMjIuNSwtMzguOEMtMTUuNywtNDIuNiwtNy44LC00NC4zLDAuMiwtNDQuN0M4LjMsLTQ1LjEsMTYuNiwtNDQuMSwyMy44LC00MC42WiIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIiBzdHJva2Utd2lkdGg9IjAiIHN0eWxlPSJ0cmFuc2l0aW9uOiBhbGwgMC4zcyBlYXNlIDBzOyI+PC9wYXRoPgogICAgICAgICAgICAgIDwvc3ZnPg==);
+ }
+ .three{
+    -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMTkuOSwtMzEuNUMyNi41LC0yNi42LDMzLjIsLTIyLjQsMzYuNSwtMTYuM0MzOS44LC0xMC4yLDM5LjcsLTIuMywzOS4yLDZDMzguNiwxNC4zLDM3LjUsMjIuOSwzMi42LDI4QzI3LjgsMzMsMTkuMiwzNC42LDExLDM2LjVDMi44LDM4LjUsLTQuOSw0MC45LC0xMS4zLDM4LjlDLTE3LjcsMzYuOSwtMjIuNywzMC40LC0yOC4yLDI0LjNDLTMzLjcsMTguMiwtMzkuOCwxMi40LC00MS43LDUuNEMtNDMuNSwtMS41LC00MS4xLC05LjYsLTM4LC0xNy43Qy0zNC44LC0yNS43LC0zMC44LC0zMy43LC0yNC4zLC0zOC42Qy0xNy45LC00My42LC04LjksLTQ1LjUsLTEuMiwtNDMuN0M2LjYsLTQxLjksMTMuMiwtMzYuNCwxOS45LC0zMS41WiIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTAgNTApIiBzdHJva2Utd2lkdGg9IjAiIHN0eWxlPSJ0cmFuc2l0aW9uOiBhbGwgMC4zcyBlYXNlIDBzOyI+PC9wYXRoPgogICAgICAgICAgICAgIDwvc3ZnPg==)
+ }
+ 
+
+ .row.justify-content-center {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-end{
+    margin-right: -16%;
+}
+
+.py-5{
+    margin-top: -80px;
+    text-align: right;
+}
